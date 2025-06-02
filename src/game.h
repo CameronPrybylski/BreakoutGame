@@ -24,6 +24,7 @@ private:
     bool isRunning;
     int screenHeight;
     int screenWidth;
+    int cnt;
 
 };
 #endif

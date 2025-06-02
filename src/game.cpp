@@ -20,6 +20,7 @@ void Game::init(const char* title, int xpos, int ypos, int height, int width){
         
         this->screenHeight = height;
         this->screenWidth = width;
+        this->cnt = 0;
     }
     else{
         this->isRunning = false;
@@ -48,13 +49,21 @@ void Game::handleEvents(){
 }
 
 void Game::update(){
-
+    cnt++;
 }
 
 void Game::render(){
+    SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
     SDL_RenderClear(renderer);
-    SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
-    
+    SDL_Rect rect;
+    rect.h = 10;
+    rect.w = 10;
+    rect.y = 20;
+    rect.x = cnt;
+    SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
+    SDL_RenderFillRect(renderer, &rect);
+    SDL_RenderPresent(renderer);
+
 }
 
 void Game::cleanup(){
