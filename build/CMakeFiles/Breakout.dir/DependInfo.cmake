@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/src/game.cpp" "CMakeFiles/Breakout.dir/src/game.cpp.o" "gcc" "CMakeFiles/Breakout.dir/src/game.cpp.o.d"
   "/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/src/main.cpp" "CMakeFiles/Breakout.dir/src/main.cpp.o" "gcc" "CMakeFiles/Breakout.dir/src/main.cpp.o.d"
   )
 

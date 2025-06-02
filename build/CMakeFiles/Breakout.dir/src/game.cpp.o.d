@@ -1,5 +1,5 @@
-CMakeFiles/Breakout.dir/src/main.cpp.o: \
-  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/main.cpp \
+CMakeFiles/Breakout.dir/src/game.cpp.o: \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/game.cpp \
   /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/game.h \
   /opt/homebrew/include/SDL2/SDL.h /opt/homebrew/include/SDL2/SDL_main.h \
   /opt/homebrew/include/SDL2/SDL_stdinc.h \
