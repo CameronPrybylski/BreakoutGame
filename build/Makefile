@@ -249,6 +249,102 @@ src/paddle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/paddle.cpp.s
 .PHONY : src/paddle.cpp.s
 
+src/source/ebo.o: src/source/ebo.cpp.o
+.PHONY : src/source/ebo.o
+
+# target to build an object file
+src/source/ebo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/ebo.cpp.o
+.PHONY : src/source/ebo.cpp.o
+
+src/source/ebo.i: src/source/ebo.cpp.i
+.PHONY : src/source/ebo.i
+
+# target to preprocess a source file
+src/source/ebo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/ebo.cpp.i
+.PHONY : src/source/ebo.cpp.i
+
+src/source/ebo.s: src/source/ebo.cpp.s
+.PHONY : src/source/ebo.s
+
+# target to generate assembly for a file
+src/source/ebo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/ebo.cpp.s
+.PHONY : src/source/ebo.cpp.s
+
+src/source/shaderClass.o: src/source/shaderClass.cpp.o
+.PHONY : src/source/shaderClass.o
+
+# target to build an object file
+src/source/shaderClass.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.o
+.PHONY : src/source/shaderClass.cpp.o
+
+src/source/shaderClass.i: src/source/shaderClass.cpp.i
+.PHONY : src/source/shaderClass.i
+
+# target to preprocess a source file
+src/source/shaderClass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.i
+.PHONY : src/source/shaderClass.cpp.i
+
+src/source/shaderClass.s: src/source/shaderClass.cpp.s
+.PHONY : src/source/shaderClass.s
+
+# target to generate assembly for a file
+src/source/shaderClass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.s
+.PHONY : src/source/shaderClass.cpp.s
+
+src/source/vao.o: src/source/vao.cpp.o
+.PHONY : src/source/vao.o
+
+# target to build an object file
+src/source/vao.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/vao.cpp.o
+.PHONY : src/source/vao.cpp.o
+
+src/source/vao.i: src/source/vao.cpp.i
+.PHONY : src/source/vao.i
+
+# target to preprocess a source file
+src/source/vao.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/vao.cpp.i
+.PHONY : src/source/vao.cpp.i
+
+src/source/vao.s: src/source/vao.cpp.s
+.PHONY : src/source/vao.s
+
+# target to generate assembly for a file
+src/source/vao.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/vao.cpp.s
+.PHONY : src/source/vao.cpp.s
+
+src/source/vbo.o: src/source/vbo.cpp.o
+.PHONY : src/source/vbo.o
+
+# target to build an object file
+src/source/vbo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/vbo.cpp.o
+.PHONY : src/source/vbo.cpp.o
+
+src/source/vbo.i: src/source/vbo.cpp.i
+.PHONY : src/source/vbo.i
+
+# target to preprocess a source file
+src/source/vbo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/vbo.cpp.i
+.PHONY : src/source/vbo.cpp.i
+
+src/source/vbo.s: src/source/vbo.cpp.s
+.PHONY : src/source/vbo.s
+
+# target to generate assembly for a file
+src/source/vbo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/vbo.cpp.s
+.PHONY : src/source/vbo.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -273,6 +369,18 @@ help:
 	@echo "... src/paddle.o"
 	@echo "... src/paddle.i"
 	@echo "... src/paddle.s"
+	@echo "... src/source/ebo.o"
+	@echo "... src/source/ebo.i"
+	@echo "... src/source/ebo.s"
+	@echo "... src/source/shaderClass.o"
+	@echo "... src/source/shaderClass.i"
+	@echo "... src/source/shaderClass.s"
+	@echo "... src/source/vao.o"
+	@echo "... src/source/vao.i"
+	@echo "... src/source/vao.s"
+	@echo "... src/source/vbo.o"
+	@echo "... src/source/vbo.i"
+	@echo "... src/source/vbo.s"
 .PHONY : help
 
 

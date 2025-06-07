@@ -142,13 +142,73 @@ CMakeFiles/Breakout.dir/src/paddle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Breakout.dir/src/paddle.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/src/paddle.cpp" -o CMakeFiles/Breakout.dir/src/paddle.cpp.s
 
+CMakeFiles/Breakout.dir/src/source/ebo.cpp.o: CMakeFiles/Breakout.dir/flags.make
+CMakeFiles/Breakout.dir/src/source/ebo.cpp.o: /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/source/ebo.cpp
+CMakeFiles/Breakout.dir/src/source/ebo.cpp.o: CMakeFiles/Breakout.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Breakout.dir/src/source/ebo.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Breakout.dir/src/source/ebo.cpp.o -MF CMakeFiles/Breakout.dir/src/source/ebo.cpp.o.d -o CMakeFiles/Breakout.dir/src/source/ebo.cpp.o -c "/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/src/source/ebo.cpp"
+
+CMakeFiles/Breakout.dir/src/source/ebo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Breakout.dir/src/source/ebo.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/src/source/ebo.cpp" > CMakeFiles/Breakout.dir/src/source/ebo.cpp.i
+
+CMakeFiles/Breakout.dir/src/source/ebo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Breakout.dir/src/source/ebo.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/src/source/ebo.cpp" -o CMakeFiles/Breakout.dir/src/source/ebo.cpp.s
+
+CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.o: CMakeFiles/Breakout.dir/flags.make
+CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.o: /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/source/shaderClass.cpp
+CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.o: CMakeFiles/Breakout.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.o -MF CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.o.d -o CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.o -c "/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/src/source/shaderClass.cpp"
+
+CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/src/source/shaderClass.cpp" > CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.i
+
+CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/src/source/shaderClass.cpp" -o CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.s
+
+CMakeFiles/Breakout.dir/src/source/vao.cpp.o: CMakeFiles/Breakout.dir/flags.make
+CMakeFiles/Breakout.dir/src/source/vao.cpp.o: /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/source/vao.cpp
+CMakeFiles/Breakout.dir/src/source/vao.cpp.o: CMakeFiles/Breakout.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Breakout.dir/src/source/vao.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Breakout.dir/src/source/vao.cpp.o -MF CMakeFiles/Breakout.dir/src/source/vao.cpp.o.d -o CMakeFiles/Breakout.dir/src/source/vao.cpp.o -c "/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/src/source/vao.cpp"
+
+CMakeFiles/Breakout.dir/src/source/vao.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Breakout.dir/src/source/vao.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/src/source/vao.cpp" > CMakeFiles/Breakout.dir/src/source/vao.cpp.i
+
+CMakeFiles/Breakout.dir/src/source/vao.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Breakout.dir/src/source/vao.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/src/source/vao.cpp" -o CMakeFiles/Breakout.dir/src/source/vao.cpp.s
+
+CMakeFiles/Breakout.dir/src/source/vbo.cpp.o: CMakeFiles/Breakout.dir/flags.make
+CMakeFiles/Breakout.dir/src/source/vbo.cpp.o: /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/source/vbo.cpp
+CMakeFiles/Breakout.dir/src/source/vbo.cpp.o: CMakeFiles/Breakout.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Breakout.dir/src/source/vbo.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Breakout.dir/src/source/vbo.cpp.o -MF CMakeFiles/Breakout.dir/src/source/vbo.cpp.o.d -o CMakeFiles/Breakout.dir/src/source/vbo.cpp.o -c "/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/src/source/vbo.cpp"
+
+CMakeFiles/Breakout.dir/src/source/vbo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Breakout.dir/src/source/vbo.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/src/source/vbo.cpp" > CMakeFiles/Breakout.dir/src/source/vbo.cpp.i
+
+CMakeFiles/Breakout.dir/src/source/vbo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Breakout.dir/src/source/vbo.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/src/source/vbo.cpp" -o CMakeFiles/Breakout.dir/src/source/vbo.cpp.s
+
 # Object files for target Breakout
 Breakout_OBJECTS = \
 "CMakeFiles/Breakout.dir/src/entity.cpp.o" \
 "CMakeFiles/Breakout.dir/src/game.cpp.o" \
 "CMakeFiles/Breakout.dir/src/glad.c.o" \
 "CMakeFiles/Breakout.dir/src/main.cpp.o" \
-"CMakeFiles/Breakout.dir/src/paddle.cpp.o"
+"CMakeFiles/Breakout.dir/src/paddle.cpp.o" \
+"CMakeFiles/Breakout.dir/src/source/ebo.cpp.o" \
+"CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.o" \
+"CMakeFiles/Breakout.dir/src/source/vao.cpp.o" \
+"CMakeFiles/Breakout.dir/src/source/vbo.cpp.o"
 
 # External object files for target Breakout
 Breakout_EXTERNAL_OBJECTS =
@@ -158,9 +218,13 @@ Breakout: CMakeFiles/Breakout.dir/src/game.cpp.o
 Breakout: CMakeFiles/Breakout.dir/src/glad.c.o
 Breakout: CMakeFiles/Breakout.dir/src/main.cpp.o
 Breakout: CMakeFiles/Breakout.dir/src/paddle.cpp.o
+Breakout: CMakeFiles/Breakout.dir/src/source/ebo.cpp.o
+Breakout: CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.o
+Breakout: CMakeFiles/Breakout.dir/src/source/vao.cpp.o
+Breakout: CMakeFiles/Breakout.dir/src/source/vbo.cpp.o
 Breakout: CMakeFiles/Breakout.dir/build.make
 Breakout: CMakeFiles/Breakout.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Breakout"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/cameronprzybylski/Documents/C++/C++ Projects/Breakout/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Breakout"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Breakout.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

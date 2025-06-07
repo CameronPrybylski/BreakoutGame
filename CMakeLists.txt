@@ -40,7 +40,7 @@ add_definitions(
 )
 
 # Source files
-file(GLOB SOURCES "src/*.cpp" "src/*.c")
+file(GLOB SOURCES "src/*.cpp" "src/*.c" "src/source/*.cpp")
 
 # Executable
 add_executable(Breakout ${SOURCES})

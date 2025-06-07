@@ -53,101 +53,53 @@ void Game::init(const char* title, int xpos, int ypos, int height, int width) {
 
         // Optional: set a default OpenGL clear color (black)
         glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
-        
-        // Vertex Shader source code
-        const char* vertexShaderSource = "#version 330 core\n"
-        "layout (location = 0) in vec3 aPos;\n"
-        "void main()\n"
-        "{\n"
-        "   gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);\n"
-        "}\0";
-        //Fragment Shader source code
-        const char* fragmentShaderSource = "#version 330 core\n"
-        "out vec4 FragColor;\n"
-        "void main()\n"
-        "{\n"
-        "   FragColor = vec4(0.0f, 0.0f, 1.0f, 1.0f);\n"
-        "}\n\0";
 
-        // Create Vertex Shader Object and get its reference
-        GLuint vertexShader = glCreateShader(GL_VERTEX_SHADER);
-        // Attach Vertex Shader source to the Vertex Shader Object
-        glShaderSource(vertexShader, 1, &vertexShaderSource, NULL);
-        // Compile the Vertex Shader into machine code
-        glCompileShader(vertexShader);
-
-        // Create Fragment Shader Object and get its reference
-        GLuint fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
-        // Attach Fragment Shader source to the Fragment Shader Object
-        glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);
-        // Compile the Vertex Shader into machine code
-        glCompileShader(fragmentShader);
-
-        // Create Shader Program Object and get its reference
-        shaderProgram = glCreateProgram();
-        // Attach the Vertex and Fragment Shaders to the Shader Program
-        glAttachShader(shaderProgram, vertexShader);
-        glAttachShader(shaderProgram, fragmentShader);
-        // Wrap-up/Link all the shaders together into the Shader Program
-        glLinkProgram(shaderProgram);
-
-        // Delete the now useless Vertex and Fragment Shader objects
-        glDeleteShader(vertexShader);
-        glDeleteShader(fragmentShader);
-
+        shaderProgram = new Shader("../src/source/default.vert", "../src/source/default.frag");
 
 
         // Vertices coordinates
-        vertices[0] = -0.2f;
-        vertices[1] =  -0.5f;
-        vertices[2] = 0.0f;
-        vertices[3] = 0.2f;
-        vertices[4] = -0.5f;
-        vertices[5] = 0.0f;
-        vertices[6] = -0.2f;
-        vertices[7] =  0.0f;
-        vertices[8] = 0.0f;
+        std::vector<GLfloat> vertices = {
+            -0.2f, -0.5f, 0.0f, //Lower right
+            0.2f, -0.5f, 0.0f, // Lower left
+            0.2f, 0.0f, 0.0f, //Upper right
+            -0.2f, 0.0f, 0.0f // Upper left
 
-        vertices[9] = -0.2f;
-        vertices[10] =  0.0f;
-        vertices[11] = 0.0f;
-        vertices[12] = 0.2f;
-        vertices[13] =  -0.5f;
-        vertices[14] = 0.0f;
-        vertices[15] = 0.2;
-        vertices[16] = 0.0f;
-        vertices[17] = 0.0f;
-        /*
-        {
-            -0.5f, -0.5f * float(sqrt(3)) / 3, 0.0f, // Lower left corner
-            0.5f, -0.5f * float(sqrt(3)) / 3, 0.0f, // Lower right corner
-            0.0f, 0.5f * float(sqrt(3)) * 2 / 3, 0.0f // Upper corner
         };
-        */
+        std::vector<GLuint> indices = {
+            0, 1, 2, // Right Triangle
+            2, 3, 0 // Left Triangle
+        };
+
+
+        objects.push_back(vertices);
+        
 
         // Create reference containers for the Vartex Array Object and the Vertex Buffer Object
-        //GLuint VAO, VBO;
+        VAO VAO;//, VBO;
+        VAO.Bind();
+        VAOs.push_back(VAO);
+        //VBOs.push_back(VBO);
 
         // Generate the VAO and VBO with only 1 object each
-        glGenVertexArrays(1, &VAO);
-        glGenBuffers(1, &VBO);
+        //glGenVertexArrays(VAOs.size(), VAOs.data());
+        //glGenBuffers(VBOs.size(), VBOs.data());
+        VBO vbo(vertices);
+        VBOs.push_back(vbo);
+        ebo = new EBO(indices);
 
-        // Make the VAO the current Vertex Array Object by binding it
-        glBindVertexArray(VAO);
+        for(int i = 0; i < 1; i++){
 
-        // Bind the VBO specifying it's a GL_ARRAY_BUFFER
-        glBindBuffer(GL_ARRAY_BUFFER, VBO);
-        // Introduce the vertices into the VBO
-        glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+            VAOs[i].Bind();
 
-        // Configure the Vertex Attribute so that OpenGL knows how to read the VBO
-        glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
-        // Enable the Vertex Attribute so that OpenGL knows to use it
-        glEnableVertexAttribArray(0);
+            VAOs[i].LinkVBO(VBOs[i], 0);
 
-        // Bind both the VBO and VAO to 0 so that we don't accidentally modify the VAO and VBO we created
-        glBindBuffer(GL_ARRAY_BUFFER, 0);
-        glBindVertexArray(0);
+            //VBOs[i].Bind();
+            ebo->Bind();
+            
+            VAOs[i].Unbind();
+            VBOs[i].Unbind();
+            ebo->Unbind();
+        }
     }
     else {
         isRunning = false;
@@ -205,8 +157,8 @@ void Game::update(){
     if(left){
         changeX = -0.01f;
     }
-    for(int i = 0; i < 18; i += 3){
-        vertices[i]+= changeX;
+    for(int i = 0; i < objects[0].size(); i += 3){
+        objects[0][i]+= changeX;
     }
 }
 
@@ -214,20 +166,36 @@ void Game::render(){
     glClear(GL_COLOR_BUFFER_BIT);
     // ... OpenGL draw code ...
     // Tell OpenGL which Shader Program we want to use
-    glUseProgram(shaderProgram);
-    // Bind the VAO so OpenGL knows to use it
-    glBindVertexArray(VAO);
-    // Bind the VBO specifying it's a GL_ARRAY_BUFFER
-    glBindBuffer(GL_ARRAY_BUFFER, VBO);
-    // Introduce the vertices into the VBO
-    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+    shaderProgram->Activate();
+    for(int i = 0; i < 1; i++){
+        // Bind the VAO so OpenGL knows to use it
+        //glBindVertexArray(VAOs[i]);
+        // Bind the VBO specifying it's a GL_ARRAY_BUFFER
+        //glBindBuffer(GL_ARRAY_BUFFER, VBOs[i]);
+        // Introduce the vertices into the VBO
+        //glBufferData(GL_ARRAY_BUFFER,objects[i].size() * sizeof(GLfloat), objects[i].data(), GL_STATIC_DRAW);
+        VAOs[i].Bind();
+        VBOs[i].Bind(objects[i]);
+        
+        // Draw primitives, number of indices, datatype of indices, index of indices
+        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+    }
     // Draw the triangle using the GL_TRIANGLES primitive
-    glDrawArrays(GL_TRIANGLES, 0, 6);
+    //glDrawArrays(GL_TRIANGLES, 0, objects[i].size() / 3);
+    //glDrawArrays(GL_LINE_LOOP, 0, objects[i].size() / 2);
 
     SDL_GL_SwapWindow(window);
 }
 
 void Game::cleanup(){
+    for(int i = 0; i < 2; i++){
+        VAOs[i].Delete();
+        VBOs[i].Delete();
+    }
+    ebo->Delete();
+    delete ebo;
+    shaderProgram->Delete();
+    delete shaderProgram;
     SDL_DestroyWindow(window);
     SDL_DestroyRenderer(renderer);
     SDL_Quit();

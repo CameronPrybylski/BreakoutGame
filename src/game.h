@@ -3,6 +3,11 @@
 
 #include "paddle.h"
 #include "glad/glad.h"
+#include "source/shaderClass.h"
+#include "source/vbo.h"
+#include "source/vao.h"
+#include "source/ebo.h"
+#include <vector>
 
 
 class Game {
@@ -25,13 +30,15 @@ private:
     SDL_Window* window;
     SDL_Renderer* renderer;
 
-    GLfloat vertices[18];
+    std::vector<std::vector<GLfloat> > objects;
 
 
 
-    GLuint VAO, VBO;
+    std::vector<VAO> VAOs;
+    std::vector<VBO> VBOs;
+    EBO* ebo;
 
-    GLuint shaderProgram;
+    Shader* shaderProgram;
 
     Paddle* paddle;
 
