@@ -3,7 +3,7 @@
 
 int main(int argc, char* argv[]) {
     Game* mainGame = new Game();
-    mainGame->init("Breakout", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 700);
+    mainGame->init("Breakout", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 800);
 
     int FPS = 60;
     int frameDelay = 1000 / FPS;
