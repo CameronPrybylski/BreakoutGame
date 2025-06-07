@@ -1,6 +1,8 @@
 CMakeFiles/Breakout.dir/src/main.cpp.o: \
   /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/main.cpp \
   /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/game.h \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/paddle.h \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/entity.h \
   /opt/homebrew/include/SDL2/SDL.h /opt/homebrew/include/SDL2/SDL_main.h \
   /opt/homebrew/include/SDL2/SDL_stdinc.h \
   /opt/homebrew/include/SDL2/SDL_config.h \
@@ -382,6 +384,8 @@ CMakeFiles/Breakout.dir/src/main.cpp.o: \
   /opt/homebrew/include/SDL2/SDL_version.h \
   /opt/homebrew/include/SDL2/SDL_locale.h \
   /opt/homebrew/include/SDL2/SDL_misc.h \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/include/glad/glad.h \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/include/KHR/khrplatform.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__fwd/ios.h \
