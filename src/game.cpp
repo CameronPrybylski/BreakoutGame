@@ -47,7 +47,7 @@ void Game::init(const char* title, int xpos, int ypos, int height, int width) {
         renderer = nullptr;  // optional: explicitly disable SDL renderer
         isRunning = true;
 
-        paddle = new Paddle(height, width, 10, 75);
+        //paddle = new Paddle();
         screenHeight = height;
         screenWidth = width;
 
@@ -59,10 +59,10 @@ void Game::init(const char* title, int xpos, int ypos, int height, int width) {
 
         // Vertices coordinates
         std::vector<GLfloat> vertices = {
-            -0.2f, -0.5f, 0.0f, //Lower right
-            0.2f, -0.5f, 0.0f, // Lower left
-            0.2f, 0.0f, 0.0f, //Upper right
-            -0.2f, 0.0f, 0.0f // Upper left
+            -0.2f, -0.75f, 0.0f, //Lower left
+            0.2f, -0.75f, 0.0f, // Lower right
+            0.2f, -0.7f, 0.0f, //Upper right
+            -0.2f, -0.7f, 0.0f // Upper left
 
         };
         std::vector<GLuint> indices = {
@@ -70,36 +70,8 @@ void Game::init(const char* title, int xpos, int ypos, int height, int width) {
             2, 3, 0 // Left Triangle
         };
 
+        paddle = new Paddle(vertices, indices);
 
-        objects.push_back(vertices);
-        
-
-        // Create reference containers for the Vartex Array Object and the Vertex Buffer Object
-        VAO VAO;//, VBO;
-        VAO.Bind();
-        VAOs.push_back(VAO);
-        //VBOs.push_back(VBO);
-
-        // Generate the VAO and VBO with only 1 object each
-        //glGenVertexArrays(VAOs.size(), VAOs.data());
-        //glGenBuffers(VBOs.size(), VBOs.data());
-        VBO vbo(vertices);
-        VBOs.push_back(vbo);
-        ebo = new EBO(indices);
-
-        for(int i = 0; i < 1; i++){
-
-            VAOs[i].Bind();
-
-            VAOs[i].LinkVBO(VBOs[i], 0);
-
-            //VBOs[i].Bind();
-            ebo->Bind();
-            
-            VAOs[i].Unbind();
-            VBOs[i].Unbind();
-            ebo->Unbind();
-        }
     }
     else {
         isRunning = false;
@@ -157,45 +129,26 @@ void Game::update(){
     if(left){
         changeX = -0.01f;
     }
-    for(int i = 0; i < objects[0].size(); i += 3){
-        objects[0][i]+= changeX;
-    }
+    paddle->update(changeX);
 }
 
 void Game::render(){
     glClear(GL_COLOR_BUFFER_BIT);
     // ... OpenGL draw code ...
+    
     // Tell OpenGL which Shader Program we want to use
     shaderProgram->Activate();
-    for(int i = 0; i < 1; i++){
-        // Bind the VAO so OpenGL knows to use it
-        //glBindVertexArray(VAOs[i]);
-        // Bind the VBO specifying it's a GL_ARRAY_BUFFER
-        //glBindBuffer(GL_ARRAY_BUFFER, VBOs[i]);
-        // Introduce the vertices into the VBO
-        //glBufferData(GL_ARRAY_BUFFER,objects[i].size() * sizeof(GLfloat), objects[i].data(), GL_STATIC_DRAW);
-        VAOs[i].Bind();
-        VBOs[i].Bind(objects[i]);
-        
-        // Draw primitives, number of indices, datatype of indices, index of indices
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
-    }
-    // Draw the triangle using the GL_TRIANGLES primitive
-    //glDrawArrays(GL_TRIANGLES, 0, objects[i].size() / 3);
-    //glDrawArrays(GL_LINE_LOOP, 0, objects[i].size() / 2);
+    paddle->render();
+    
 
     SDL_GL_SwapWindow(window);
 }
 
 void Game::cleanup(){
-    for(int i = 0; i < 2; i++){
-        VAOs[i].Delete();
-        VBOs[i].Delete();
-    }
-    ebo->Delete();
-    delete ebo;
     shaderProgram->Delete();
     delete shaderProgram;
+    paddle->cleanup();
+    delete paddle;
     SDL_DestroyWindow(window);
     SDL_DestroyRenderer(renderer);
     SDL_Quit();
