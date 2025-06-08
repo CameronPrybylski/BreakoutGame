@@ -2,6 +2,7 @@
 #define _GAME_H_
 
 #include "paddle.h"
+#include "entity.h"
 #include "glad/glad.h"
 #include "source/shaderClass.h"
 #include "source/vbo.h"
@@ -30,13 +31,7 @@ private:
     SDL_Window* window;
     SDL_Renderer* renderer;
 
-    std::vector<std::vector<GLfloat> > objects;
-
-
-
-    std::vector<VAO> VAOs;
-    std::vector<VBO> VBOs;
-    EBO* ebo;
+    std::vector<Entity*> objects;
 
     Shader* shaderProgram;
 
