@@ -1,9 +1,13 @@
 #include "vbo.h"
 
-VBO::VBO(std::vector<GLfloat> vertices){
+VBO::VBO(std::vector<GLfloat> vertices, bool staticOr){
     glGenBuffers(1, &ID);
     glBindBuffer(GL_ARRAY_BUFFER, ID);
-    glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(GLfloat), vertices.data(), GL_STATIC_DRAW);
+    if(staticOr){
+        glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(GLfloat), vertices.data(), GL_STATIC_DRAW);
+    }else{
+        glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(GLfloat), vertices.data(), GL_DYNAMIC_DRAW);
+    }
 }
 
 void VBO::Bind(){
@@ -12,7 +16,7 @@ void VBO::Bind(){
 
 void VBO::Bind(std::vector<GLfloat> vertices){
     glBindBuffer(GL_ARRAY_BUFFER, ID);
-    glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(GLfloat), vertices.data(), GL_STATIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(GLfloat), vertices.data(), GL_DYNAMIC_DRAW);
 }
 
 void VBO::Unbind(){

@@ -9,7 +9,7 @@ public:
 
     GLuint ID;
 
-    VBO(std::vector<GLfloat> vertices);
+    VBO(std::vector<GLfloat> vertices, bool staticOr);
 
     void Bind();
     void Bind(std::vector<GLfloat> vertices);
