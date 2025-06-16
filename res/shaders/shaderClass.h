@@ -7,11 +7,14 @@
 #include<sstream>
 #include<iostream>
 #include<cerrno>
+#include<unordered_map>
 
 std::string get_file_contents(const char* filename);
 
 class Shader
 {
+private:
+	std::unordered_map<const char*, int> uniformLoactionsCache;
 public:
 	// Reference ID of the Shader Program
 	GLuint ID;
@@ -20,9 +23,15 @@ public:
     ~Shader();
 
 	// Activates the Shader Program
-	void Activate();
+	void Bind() const;
+	// Deactivates the Shader Program
+	void Unbind();
 	// Deletes the Shader Program
 	void Delete();
+
+	int getUniformLocation(const char* uniformName);
+	void setUniform4f(const char* uniformName, float v0, float v1, float v2, float v3);
+	void setUniform1i(const char* uniformName, int value);
 };
 
 #endif

@@ -54,15 +54,15 @@ void Game::init(const char* title, int xpos, int ypos, int height, int width) {
         // Optional: set a default OpenGL clear color (black)
         glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
 
-        shaderProgram = new Shader("../src/source/default.vert", "../src/source/default.frag");
+        shaderProgram = new Shader("../res/shaders/default.vert", "../res/shaders/default.frag");
 
 
         // Vertices coordinates
         std::vector<GLfloat> vertices = {
-            -0.2f, -0.75f, 0.0f, //Lower left
-            0.2f, -0.75f, 0.0f, // Lower right
-            0.2f, -0.7f, 0.0f, //Upper right
-            -0.2f, -0.7f, 0.0f // Upper left
+            -0.2f, -0.85f, 0.0f, 0.0f, //Lower left Second Pair is texure coordinates
+            0.2f, -0.85f, 1.0f, 0.0f, // Lower right
+            0.2f, -0.8f, 1.0f, 1.0f, //Upper right
+            -0.2f, -0.8f, 0.0f, 1.0f // Upper left
 
         };
         std::vector<GLuint> indices = {
@@ -70,7 +70,17 @@ void Game::init(const char* title, int xpos, int ypos, int height, int width) {
             2, 3, 0 // Left Triangle
         };
 
+        glEnable(GL_BLEND);
+        glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
+
         paddle = new Paddle(vertices, indices);
+
+        //texture = new Texture("../res/textures/trollface.png");
+        //Default for Bind is slot 0 so setUniform must match with slot so pass in 0
+        //texture->Bind();
+        shaderProgram->Bind();
+        shaderProgram->setUniform1i("u_Texture", 0);
 
     }
     else {
@@ -133,21 +143,22 @@ void Game::update(){
 }
 
 void Game::render(){
-    glClear(GL_COLOR_BUFFER_BIT);
+    myRenderer.Clear();
     // ... OpenGL draw code ...
     
     // Tell OpenGL which Shader Program we want to use
-    shaderProgram->Activate();
-    paddle->render();
+    //shaderProgram->Bind();
+    //shaderProgram->setUniform1i("u_Texture", 0);
+    //shaderProgram->setUniform4f("u_Color", 1.0f, 1.0f, 1.0f, 1.0f);
+    myRenderer.Draw(*paddle->getVAO(), *paddle->getVBO(), *paddle->getEBO(), *shaderProgram, *paddle->getTexture());
     
 
     SDL_GL_SwapWindow(window);
 }
 
 void Game::cleanup(){
-    shaderProgram->Delete();
     delete shaderProgram;
-    paddle->cleanup();
+   // delete texture;
     delete paddle;
     SDL_DestroyWindow(window);
     SDL_DestroyRenderer(renderer);

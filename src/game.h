@@ -4,10 +4,12 @@
 #include "paddle.h"
 #include "entity.h"
 #include "glad/glad.h"
-#include "source/shaderClass.h"
+#include "../res/shaders/shaderClass.h"
 #include "source/vbo.h"
 #include "source/vao.h"
 #include "source/ebo.h"
+#include "source/renderer.h"
+#include "source/texture.h"
 #include <vector>
 
 
@@ -36,6 +38,10 @@ private:
     Shader* shaderProgram;
 
     Paddle* paddle;
+
+    Renderer myRenderer;
+
+    Texture* texture;
 
     bool isRunning;
     bool left;

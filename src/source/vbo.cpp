@@ -10,7 +10,11 @@ VBO::VBO(std::vector<GLfloat> vertices, bool staticOr){
     }
 }
 
-void VBO::Bind(){
+VBO::~VBO(){
+    glDeleteBuffers(1, &ID);
+}
+
+void VBO::Bind() const{
     glBindBuffer(GL_ARRAY_BUFFER, ID);
 }
 

@@ -972,7 +972,8 @@ CMakeFiles/Breakout.dir/src/game.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__split_buffer \
   /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/source/vao.h \
   /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/source/ebo.h \
-  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/source/shaderClass.h \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/source/renderer.h \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/source/../../res/shaders/shaderClass.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/fstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
@@ -1047,4 +1048,7 @@ CMakeFiles/Breakout.dir/src/game.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/sstream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iostream
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iostream \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/source/texture.h \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/source/../vendor/stb_image/stb_image.h \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/../res/shaders/shaderClass.h

@@ -57,16 +57,41 @@ Shader::Shader(const char* vertexFile, const char* fragmentFile)
 
 }
 
-Shader::~Shader(){}
+Shader::~Shader(){
+	glDeleteProgram(ID);
+}
 
 // Activates the Shader Program
-void Shader::Activate()
+void Shader::Bind() const
 {
 	glUseProgram(ID);
+}
+
+void Shader::Unbind(){
+	glUseProgram(0);
 }
 
 // Deletes the Shader Program
 void Shader::Delete()
 {
 	glDeleteProgram(ID);
+}
+
+int Shader::getUniformLocation(const char* uniformName){
+	if(uniformLoactionsCache.find(uniformName) != uniformLoactionsCache.end()){
+		return uniformLoactionsCache[uniformName];
+	}
+	int location = glGetUniformLocation(ID, uniformName);
+	uniformLoactionsCache[uniformName] = location;
+	return location;
+}
+
+void Shader::setUniform1i(const char* uniformName, int value){
+	int uniformLoc = getUniformLocation(uniformName);
+	glUniform1i(uniformLoc, value);
+}
+
+void Shader::setUniform4f(const char* uniformName, float v0, float v1, float v2, float v3){
+	int uniformLoc = getUniformLocation(uniformName);
+	glUniform4f(uniformLoc, v0, v1, v2, v3);
 }

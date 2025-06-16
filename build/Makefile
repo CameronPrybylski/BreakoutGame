@@ -129,6 +129,30 @@ Breakout/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/build
 .PHONY : Breakout/fast
 
+res/shaders/shaderClass.o: res/shaders/shaderClass.cpp.o
+.PHONY : res/shaders/shaderClass.o
+
+# target to build an object file
+res/shaders/shaderClass.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/res/shaders/shaderClass.cpp.o
+.PHONY : res/shaders/shaderClass.cpp.o
+
+res/shaders/shaderClass.i: res/shaders/shaderClass.cpp.i
+.PHONY : res/shaders/shaderClass.i
+
+# target to preprocess a source file
+res/shaders/shaderClass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/res/shaders/shaderClass.cpp.i
+.PHONY : res/shaders/shaderClass.cpp.i
+
+res/shaders/shaderClass.s: res/shaders/shaderClass.cpp.s
+.PHONY : res/shaders/shaderClass.s
+
+# target to generate assembly for a file
+res/shaders/shaderClass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/res/shaders/shaderClass.cpp.s
+.PHONY : res/shaders/shaderClass.cpp.s
+
 src/entity.o: src/entity.cpp.o
 .PHONY : src/entity.o
 
@@ -273,29 +297,53 @@ src/source/ebo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/ebo.cpp.s
 .PHONY : src/source/ebo.cpp.s
 
-src/source/shaderClass.o: src/source/shaderClass.cpp.o
-.PHONY : src/source/shaderClass.o
+src/source/renderer.o: src/source/renderer.cpp.o
+.PHONY : src/source/renderer.o
 
 # target to build an object file
-src/source/shaderClass.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.o
-.PHONY : src/source/shaderClass.cpp.o
+src/source/renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/renderer.cpp.o
+.PHONY : src/source/renderer.cpp.o
 
-src/source/shaderClass.i: src/source/shaderClass.cpp.i
-.PHONY : src/source/shaderClass.i
+src/source/renderer.i: src/source/renderer.cpp.i
+.PHONY : src/source/renderer.i
 
 # target to preprocess a source file
-src/source/shaderClass.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.i
-.PHONY : src/source/shaderClass.cpp.i
+src/source/renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/renderer.cpp.i
+.PHONY : src/source/renderer.cpp.i
 
-src/source/shaderClass.s: src/source/shaderClass.cpp.s
-.PHONY : src/source/shaderClass.s
+src/source/renderer.s: src/source/renderer.cpp.s
+.PHONY : src/source/renderer.s
 
 # target to generate assembly for a file
-src/source/shaderClass.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/shaderClass.cpp.s
-.PHONY : src/source/shaderClass.cpp.s
+src/source/renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/renderer.cpp.s
+.PHONY : src/source/renderer.cpp.s
+
+src/source/texture.o: src/source/texture.cpp.o
+.PHONY : src/source/texture.o
+
+# target to build an object file
+src/source/texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/texture.cpp.o
+.PHONY : src/source/texture.cpp.o
+
+src/source/texture.i: src/source/texture.cpp.i
+.PHONY : src/source/texture.i
+
+# target to preprocess a source file
+src/source/texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/texture.cpp.i
+.PHONY : src/source/texture.cpp.i
+
+src/source/texture.s: src/source/texture.cpp.s
+.PHONY : src/source/texture.s
+
+# target to generate assembly for a file
+src/source/texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/texture.cpp.s
+.PHONY : src/source/texture.cpp.s
 
 src/source/vao.o: src/source/vao.cpp.o
 .PHONY : src/source/vao.o
@@ -345,6 +393,30 @@ src/source/vbo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/source/vbo.cpp.s
 .PHONY : src/source/vbo.cpp.s
 
+src/vendor/stb_image/stp_image.o: src/vendor/stb_image/stp_image.cpp.o
+.PHONY : src/vendor/stb_image/stp_image.o
+
+# target to build an object file
+src/vendor/stb_image/stp_image.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/vendor/stb_image/stp_image.cpp.o
+.PHONY : src/vendor/stb_image/stp_image.cpp.o
+
+src/vendor/stb_image/stp_image.i: src/vendor/stb_image/stp_image.cpp.i
+.PHONY : src/vendor/stb_image/stp_image.i
+
+# target to preprocess a source file
+src/vendor/stb_image/stp_image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/vendor/stb_image/stp_image.cpp.i
+.PHONY : src/vendor/stb_image/stp_image.cpp.i
+
+src/vendor/stb_image/stp_image.s: src/vendor/stb_image/stp_image.cpp.s
+.PHONY : src/vendor/stb_image/stp_image.s
+
+# target to generate assembly for a file
+src/vendor/stb_image/stp_image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/vendor/stb_image/stp_image.cpp.s
+.PHONY : src/vendor/stb_image/stp_image.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -354,6 +426,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Breakout"
+	@echo "... res/shaders/shaderClass.o"
+	@echo "... res/shaders/shaderClass.i"
+	@echo "... res/shaders/shaderClass.s"
 	@echo "... src/entity.o"
 	@echo "... src/entity.i"
 	@echo "... src/entity.s"
@@ -372,15 +447,21 @@ help:
 	@echo "... src/source/ebo.o"
 	@echo "... src/source/ebo.i"
 	@echo "... src/source/ebo.s"
-	@echo "... src/source/shaderClass.o"
-	@echo "... src/source/shaderClass.i"
-	@echo "... src/source/shaderClass.s"
+	@echo "... src/source/renderer.o"
+	@echo "... src/source/renderer.i"
+	@echo "... src/source/renderer.s"
+	@echo "... src/source/texture.o"
+	@echo "... src/source/texture.i"
+	@echo "... src/source/texture.s"
 	@echo "... src/source/vao.o"
 	@echo "... src/source/vao.i"
 	@echo "... src/source/vao.s"
 	@echo "... src/source/vbo.o"
 	@echo "... src/source/vbo.i"
 	@echo "... src/source/vbo.s"
+	@echo "... src/vendor/stb_image/stp_image.o"
+	@echo "... src/vendor/stb_image/stp_image.i"
+	@echo "... src/vendor/stb_image/stp_image.s"
 .PHONY : help
 
 
