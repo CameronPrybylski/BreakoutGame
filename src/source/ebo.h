@@ -6,6 +6,9 @@
 
 class EBO
 {
+
+private:
+	int count;
 public:
 	// ID reference of Elements Buffer Object
 	GLuint ID;
@@ -14,11 +17,13 @@ public:
     ~EBO();
 
 	// Binds the EBO
-	void Bind();
+	void Bind() const;
 	// Unbinds the EBO
 	void Unbind();
 	// Deletes the EBO
 	void Delete();
+
+	int getCount() const;
 };
 
 #endif
