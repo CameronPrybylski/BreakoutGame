@@ -146,7 +146,6 @@ int main(int argc, char* argv[]) {
     while(mainGame->running()){
 
         frameStart = SDL_GetTicks();
-
         mainGame->handleEvents();
         mainGame->update();
         mainGame->render();

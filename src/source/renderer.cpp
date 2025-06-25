@@ -10,5 +10,6 @@ void Renderer::Draw(const VAO& vao, const VBO& vbo, const EBO& ebo, const Shader
     texture.Bind();
     shader.Bind();
     vao.Bind();
+    ebo.Bind();
     glDrawElements(GL_TRIANGLES, ebo.getCount(), GL_UNSIGNED_INT, 0);
 }

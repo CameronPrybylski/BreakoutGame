@@ -384,6 +384,223 @@ CMakeFiles/Breakout.dir/src/game.cpp.o: \
   /opt/homebrew/include/SDL2/SDL_version.h \
   /opt/homebrew/include/SDL2/SDL_locale.h \
   /opt/homebrew/include/SDL2/SDL_misc.h \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/glm.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/detail/_fixes.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/cmath \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/detail/setup.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/cassert \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/assert.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_assert.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_static_assert.h \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/detail/../simd/platform.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/climits \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/machine/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/_limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/syslimits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/cfloat \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/fwd.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/detail/qualifier.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/vec2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_bool2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/type_vec2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/qualifier.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/type_vec2.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/./compute_vector_relational.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/./setup.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_bool2_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_float2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_float2_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_double2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_double2_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_int2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_int2_sized.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../ext/vector_int2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../ext/scalar_int_sized.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../ext/../detail/setup.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_uint2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_uint2_sized.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../ext/vector_uint2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../ext/scalar_uint_sized.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/vec3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_bool3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/type_vec3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/type_vec3.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/compute_vector_relational.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_bool3_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_float3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_float3_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_double3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_double3_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_int3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_int3_sized.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../ext/vector_int3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_uint3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_uint3_sized.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../ext/vector_uint3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/vec4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_bool4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/type_vec4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/type_vec4.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_bool4_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_float4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_float4_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_double4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_double4_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/setup.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_int4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_int4_sized.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../ext/vector_int4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_uint4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/vector_uint4_sized.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../ext/vector_uint4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/mat2x2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/matrix_double2x2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/type_mat2x2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/type_mat2x2.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../matrix.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/qualifier.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/setup.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../vec2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../vec3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../vec4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../mat2x2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../mat2x3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_double2x3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat2x3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/type_vec2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/type_vec3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat2x3.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_double2x3_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_float2x3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_float2x3_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../mat2x4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_double2x4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat2x4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/type_vec4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat2x4.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_double2x4_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_float2x4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_float2x4_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../mat3x2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_double3x2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat3x2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat3x2.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_double3x2_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_float3x2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_float3x2_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../mat3x3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_double3x3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat3x3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat3x3.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/../matrix.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_double3x3_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_float3x3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_float3x3_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../mat3x4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_double3x4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat3x4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat3x4.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_double3x4_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_float3x4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_float3x4_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../mat4x2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_double4x2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat4x2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat4x2.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_double4x2_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_float4x2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_float4x2_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat2x2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../mat4x3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_double4x3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat4x3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat4x3.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_double4x3_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_float4x3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_float4x3_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../mat4x4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_double4x4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat4x4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/../detail/type_mat4x4.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_double4x4_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_float4x4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/.././ext/matrix_float4x4_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/func_matrix.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../geometric.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/type_vec3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/func_geometric.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/../exponential.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/type_vec1.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/qualifier.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/type_vec1.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/./compute_vector_relational.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/type_vec2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/type_vec3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/type_vec4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/func_exponential.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/../vector_relational.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/../detail/qualifier.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/../detail/setup.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/../detail/func_vector_relational.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/_vectorize.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/../common.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/_fixes.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/func_common.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/compute_common.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/../detail/../detail/../detail/../detail/setup.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/matrix_double2x2_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/matrix_float2x2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/./ext/matrix_float2x2_precision.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/mat2x3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/mat2x4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/mat3x2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/mat3x3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/mat3x4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/mat4x2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/mat4x3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/mat4x4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/trigonometric.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/detail/func_trigonometric.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/detail/_vectorize.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/exponential.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/common.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/packing.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/detail/func_packing.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/detail/../common.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/detail/type_half.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/detail/type_half.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/geometric.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/matrix.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/vector_relational.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/integer.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/detail/func_integer.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/matrix_transform.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../mat4x4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../vec2.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../vec3.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../vec4.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../ext/matrix_projection.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../ext/../gtc/constants.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../ext/../gtc/../ext/scalar_constants.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../ext/../gtc/../ext/../detail/setup.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../ext/../gtc/../ext/scalar_constants.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../ext/../gtc/constants.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../ext/../geometric.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../ext/../trigonometric.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../ext/../matrix.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../ext/matrix_projection.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../ext/matrix_clip_space.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../ext/../ext/scalar_constants.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../ext/matrix_clip_space.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../ext/matrix_transform.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../ext/matrix_transform.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/matrix_transform.inl \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../geometric.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../trigonometric.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/vendor/glm/gtc/../matrix.hpp \
   /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/source/vbo.h \
   /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/include/glad/glad.h \
   /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/include/KHR/khrplatform.h \
@@ -571,7 +788,6 @@ CMakeFiles/Breakout.dir/src/game.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__compare/strong_order.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__bit/bit_cast.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__utility/priority_tag.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/cmath \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__compare/compare_strong_order_fallback.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__compare/compare_weak_order_fallback.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__compare/is_eq.h \
@@ -607,13 +823,6 @@ CMakeFiles/Breakout.dir/src/game.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__atomic/memory_order.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/duration.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/ratio \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/climits \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/limits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/limits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/machine/limits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/limits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/_limits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/steady_clock.h \
@@ -974,6 +1183,8 @@ CMakeFiles/Breakout.dir/src/game.cpp.o: \
   /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/source/ebo.h \
   /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/source/renderer.h \
   /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/source/../../res/shaders/shaderClass.h \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/source/../../res/shaders/../../src/vendor/glm/glm.hpp \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/source/../../res/shaders/../../src/vendor/glm/gtc/matrix_transform.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/fstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
@@ -1051,4 +1262,8 @@ CMakeFiles/Breakout.dir/src/game.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iostream \
   /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/source/texture.h \
   /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/source/../vendor/stb_image/stb_image.h \
-  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/../res/shaders/shaderClass.h
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/ball.h \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/brickmanager.h \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/brick.h \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/../res/shaders/shaderClass.h \
+  /Users/cameronprzybylski/Documents/C++/C++\ Projects/Breakout/src/../res/shaders/shaderManager.h

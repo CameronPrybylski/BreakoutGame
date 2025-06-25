@@ -153,6 +153,78 @@ res/shaders/shaderClass.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/res/shaders/shaderClass.cpp.s
 .PHONY : res/shaders/shaderClass.cpp.s
 
+src/ball.o: src/ball.cpp.o
+.PHONY : src/ball.o
+
+# target to build an object file
+src/ball.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/ball.cpp.o
+.PHONY : src/ball.cpp.o
+
+src/ball.i: src/ball.cpp.i
+.PHONY : src/ball.i
+
+# target to preprocess a source file
+src/ball.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/ball.cpp.i
+.PHONY : src/ball.cpp.i
+
+src/ball.s: src/ball.cpp.s
+.PHONY : src/ball.s
+
+# target to generate assembly for a file
+src/ball.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/ball.cpp.s
+.PHONY : src/ball.cpp.s
+
+src/brick.o: src/brick.cpp.o
+.PHONY : src/brick.o
+
+# target to build an object file
+src/brick.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/brick.cpp.o
+.PHONY : src/brick.cpp.o
+
+src/brick.i: src/brick.cpp.i
+.PHONY : src/brick.i
+
+# target to preprocess a source file
+src/brick.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/brick.cpp.i
+.PHONY : src/brick.cpp.i
+
+src/brick.s: src/brick.cpp.s
+.PHONY : src/brick.s
+
+# target to generate assembly for a file
+src/brick.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/brick.cpp.s
+.PHONY : src/brick.cpp.s
+
+src/brickmanager.o: src/brickmanager.cpp.o
+.PHONY : src/brickmanager.o
+
+# target to build an object file
+src/brickmanager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/brickmanager.cpp.o
+.PHONY : src/brickmanager.cpp.o
+
+src/brickmanager.i: src/brickmanager.cpp.i
+.PHONY : src/brickmanager.i
+
+# target to preprocess a source file
+src/brickmanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/brickmanager.cpp.i
+.PHONY : src/brickmanager.cpp.i
+
+src/brickmanager.s: src/brickmanager.cpp.s
+.PHONY : src/brickmanager.s
+
+# target to generate assembly for a file
+src/brickmanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout.dir/build.make CMakeFiles/Breakout.dir/src/brickmanager.cpp.s
+.PHONY : src/brickmanager.cpp.s
+
 src/entity.o: src/entity.cpp.o
 .PHONY : src/entity.o
 
@@ -429,6 +501,15 @@ help:
 	@echo "... res/shaders/shaderClass.o"
 	@echo "... res/shaders/shaderClass.i"
 	@echo "... res/shaders/shaderClass.s"
+	@echo "... src/ball.o"
+	@echo "... src/ball.i"
+	@echo "... src/ball.s"
+	@echo "... src/brick.o"
+	@echo "... src/brick.i"
+	@echo "... src/brick.s"
+	@echo "... src/brickmanager.o"
+	@echo "... src/brickmanager.i"
+	@echo "... src/brickmanager.s"
 	@echo "... src/entity.o"
 	@echo "... src/entity.i"
 	@echo "... src/entity.s"
