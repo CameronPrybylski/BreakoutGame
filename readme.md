@@ -72,9 +72,9 @@ Run the game:
 
 | Key   | Action          |
 | ----- | --------------- |
-| ← / → | Move paddle     |
+| a / d | Move paddle     |
 | Space | Launch the ball |
-| Esc   | Quit the game   |
+| X(icon)   | Quit the game   |
 
 ---
 
@@ -82,9 +82,9 @@ Run the game:
 
 ```
 breakout-game/
-├── assets/              # Textures, sounds, fonts
+├── res/              # Textures, shaders
 ├── src/                 # All C++ source files
-├── include/             # Headers (if any)
+├── include/             # Headers 
 ├── CMakeLists.txt
 └── README.md
 ```
