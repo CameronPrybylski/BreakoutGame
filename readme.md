@@ -1,6 +1,6 @@
 # 🧱 Breakout Game
 
-A simple Breakout clone built in C++ using SDL2. Smash bricks, save the ball, and have fun!
+A simple Breakout clone built in C++ using SDL2 and OpenGL. Smash bricks, save the ball, and have fun!
 
 ---
 
