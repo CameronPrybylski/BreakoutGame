@@ -48,8 +48,8 @@ sudo apt install cmake libsdl2-dev libsdl2-image-dev
 ### 🔧 Build Steps
 
 ```bash
-git clone https://github.com/yourusername/breakout-game.git
-cd breakout-game
+git clone https://github.com/CameronPrybylski/BreakoutGame.git
+cd BreakoutGame
 
 mkdir build
 cd build
@@ -63,8 +63,6 @@ Run the game:
 ```bash
 ./Breakout
 ```
-
-> 🔔 Make sure the `assets/` folder is in the same directory as the executable when you run it.
 
 ---
 
